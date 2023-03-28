@@ -18,3 +18,12 @@
 - Ingresar a nyuestra cuenta github
 - Creamos nuestro repositorio
 - Nos regresamos a la terminal del proyecto en VSC para ejcutar las ultimas lineas.
+  - `git remove add origin https://github.com/J-Ciro/ejemplo.git` : para renombrar la rama pirmcipal
+  - `git push -u origin maion:` Se suben todos los archivos al repositorio remoto
+
+## Subir cambios a un repositorio
+
+1. comporbar el estado de los archivos: `git status`
+2. `git add .`
+3. `git commit -m "mensaje del commit"`
+4. `git push `
