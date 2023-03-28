@@ -26,4 +26,22 @@
 1. comporbar el estado de los archivos: `git status`
 2. `git add .`
 3. `git commit -m "mensaje del commit"`
-4. `git push `
+4. `git push origin nombre_rama_actual`
+
+## Trabajar con estrategias de branching
+
+Existen dos tipos de estrategias de branching:
+
+1. Trunk-based: Cuando trabajamos de manera individual
+2. Git Flow: Cuando trabajamos de manera colaborativa
+
+## Trabajar con Git Flow
+
+1. Se ejcutan los pasos anteriores (Inicializacion del repositorio)
+2. Va a crear la rama develop: `git checkout -b develop`
+3. Agregar unos cambios minimos
+4. Desde la rama develop ejecuta los pasos de `Subir cambios a un repositorio`
+
+#### Nota:
+
+- `git reset`: deshace `git add .`
